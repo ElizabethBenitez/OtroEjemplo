@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44891" started-at="2018-11-26T20:11:36Z" finished-at="2018-11-26T20:12:21Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="44891" started-at="2018-11-26T20:11:36Z" finished-at="2018-11-26T20:12:21Z">
+      <class name="tests.LoginTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTests@39ba5a14]" name="setup" is-config="true" duration-ms="8757" started-at="2018-11-26T20:11:36Z" finished-at="2018-11-26T20:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidLoginTest_InvalidUserNameInvalidPassword()[pri:0, instance:tests.LoginTests@39ba5a14]" name="invalidLoginTest_InvalidUserNameInvalidPassword" duration-ms="21889" started-at="2018-11-26T20:11:45Z" finished-at="2018-11-26T20:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
+        <test-method status="PASS" signature="invalidLoginTest_EmptyUserEmptyPassword()[pri:1, instance:tests.LoginTests@39ba5a14]" name="invalidLoginTest_EmptyUserEmptyPassword" duration-ms="12970" started-at="2018-11-26T20:12:07Z" finished-at="2018-11-26T20:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_EmptyUserEmptyPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTests@39ba5a14]" name="teardown" is-config="true" duration-ms="1204" started-at="2018-11-26T20:12:20Z" finished-at="2018-11-26T20:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
